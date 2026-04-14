@@ -28,3 +28,5 @@ a.mostrar_tipo()
 
 b = Vehiculo()
 b.mostrar_vehiculo()
+
+print("Fin del programa")
