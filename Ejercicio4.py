@@ -24,7 +24,7 @@ class CuentaBancaria:
 class CuentaAhorros(CuentaBancaria):
     def __init__(self):
         super().__init__()
-        self.tasa_interes = float(input("Ingrese la tasa de interés anual (en %): "))
+        self.tasa_interes = float(input("ingrese la tasa de interés anual (en %): "))
         
     def calcular_interes(self):
         interes = self.saldo * (self.tasa_interes / 100)
