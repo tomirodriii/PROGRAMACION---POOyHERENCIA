@@ -6,8 +6,8 @@ os.system("cls")
 
 class Empleado:
     def __init__(self):
-        self.nombre = input("Ingrese el nombre del empleado: ")
-        self.salario = float(input("Ingrese el salario del empleado: "))
+        self.nombre = input("ingrese el nombre del empleado: ")
+        self.salario = float(input("ingrese el salario del empleado: "))
         
     def mostrar_info(self):
         return print(f"Empleado: {self.nombre}, Salario: {self.salario}")
