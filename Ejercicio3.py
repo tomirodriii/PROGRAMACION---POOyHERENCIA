@@ -5,3 +5,24 @@
 # Gato:
 # Crear una clase base Animal con un método genérico, y luego dos clases derivadas (Perro y Gato) que hereden y
 # personalicen el comportamiento.
+
+import os   
+os.system("cls")
+
+class Animal:
+    def __init__(self, nombre):
+        self.nombre = nombre
+        
+    def hacer_sonido(self):
+        return "El animal hace un sonido genérico."
+class Perro(Animal):
+    def hacer_sonido(self):
+        return f"{self.nombre} dice: ¡Guau!"
+class Gato(Animal):
+    def hacer_sonido(self):
+        return f"{self.nombre} dice: ¡Miau!"
+perro = Perro("Rex")
+gato = Gato("Mimi")
+
+print(perro.hacer_sonido())
+print(gato.hacer_sonido())
