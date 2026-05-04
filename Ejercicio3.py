@@ -21,8 +21,8 @@ class Perro(Animal):
 class Gato(Animal):
     def hacer_sonido(self):
         return f"{self.nombre} dice: ¡Miau!"
-perro = Perro("Rex")
-gato = Gato("Mimi")
+perro = Perro("rex")
+gato = Gato("mimi")
 
 print(perro.hacer_sonido())
 print(gato.hacer_sonido())
